@@ -9,9 +9,9 @@ The goal of Nsa is to help with that, once you start the app it will create a qu
 
 To start Nsa:
 
+  * Configure your dev.secret.exs with your RabbitMQ connection information
   * Install dependencies with `mix deps.get`
   * Install Node.js dependencies with `npm install`
-  * Configure your dev.exs with your RabbitMQ connection information
   * Start Phoenix endpoint with `mix phoenix.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
